@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f1f5f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e293b, #334155);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: #38bdf8;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+nav {
+    background: #0f172a;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Cards */
+.card {
+    background: #e2e8f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Headings */
+h2 {
+    border-bottom: 3px solid #38bdf8;
+    padding-bottom: 5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #1e293b;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+    color: white;
+}
